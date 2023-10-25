@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>emp_center_iden</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>emp_center_iden.shp</path>
+            </datasource>
+            <layername>emp_center_iden</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>POLY_ID</var>
+                <var>STATEFP</var>
+                <var>COUNTYFP</var>
+                <var>TRACTCE</var>
+                <var>INTPTLAT</var>
+                <var>INTPTLON</var>
+                <var>TRACTFP</var>
+                <var>job_tot_20</var>
+                <var>job_retail</var>
+                <var>job_tot__1</var>
+                <var>job_reta_1</var>
+                <var>retail_dif</var>
+                <var>tot_diff</var>
+                <var>LISA_CL</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>emp_center_iden</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>emp_center_iden.gal</path>
+                        <id_variable>POLY_ID</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>1005</num_observations>
+                        <min_neighbors>1</min_neighbors>
+                        <max_neighbors>12</max_neighbors>
+                        <mean_neighbors>6.2208955223880595</mean_neighbors>
+                        <median_neighbors>6</median_neighbors>
+                        <non_zero_perc>0.61899457934209545</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>job_tot_20</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
